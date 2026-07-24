@@ -34,7 +34,10 @@ Instead of showing the image in GitHub Preview, the page displayed the image URL
 
 The first step was to verify that the image had uploaded successfully to the GitHub repository. I confirmed that the file existed and could be opened, which ruled out a failed upload as the cause of the problem.
 
-*(Screenshot will be added here later.)*
+![GitHub lab instructions showing the task of copying the image link into the Markdown document](screenshots/step%204%20info.jpeg)
+
+
+![GitHub commit history confirming the image uploaded successfully to the repository](screenshots/history%20bar.jpeg)
 
 ### Step 2 – Attempted to copy the image link
 
@@ -42,7 +45,7 @@ I followed the lab instructions and attempted to copy the image link so it could
 
 While using GitHub on my Chromebook, I discovered that the menus and options were different from the instructions I was following. This required additional troubleshooting to determine the correct method.
 
-*(Screenshot will be added here later.)*
+![ChromeOS right-click menu after researching how to right-click on a Chromebook without a mouse](screenshots/right%20click%20menu.jpeg)
 
 ### Step 3 – Adapted the instructions for ChromeOS
 
@@ -52,7 +55,7 @@ The instructions referred to selecting **"Copy link address,"** but on ChromeOS 
 
 After confirming that this was the Chromebook equivalent, I copied the image address and continued troubleshooting.
 
-*(Screenshot will be added here later.)*
+![ChromeOS context menu showing the "Copy image address" option after discovering the image itself must be right-clicked](screenshots/left%20and%20right.jpeg)
 
 ### Step 4 – Tested and corrected the image URL
 
@@ -62,7 +65,10 @@ While testing the link, I noticed that the copied URL ended with **`?raw=true`**
 
 Even after correcting the URL, GitHub Preview still did not display the image. This confirmed that the image link itself was not the root cause of the problem, so I continued troubleshooting.
 
-*(Screenshot will be added here later.)*
+![Markdown document after pasting the copied image link](screenshots/1st%20link%20paste.jpeg)
+
+
+![GitHub Preview showing the image still failed to render after pasting the link](screenshots/1st%20preview.jpeg)
 
 ### Step 5 – Verified the link and investigated the Markdown formatting
 
@@ -72,7 +78,7 @@ Since the URL was working correctly, I shifted my focus to the Markdown formatti
 
 After understanding what the triple backticks were doing, I removed them and adjusted the Markdown.
 
-*(Screenshot will be added here later.)*
+![Original Markdown showing the triple backticks surrounding the image syntax](screenshots/original%20code.jpeg)
 
 ### Step 6 – Verified the solution
 
@@ -82,7 +88,7 @@ This time, the image displayed correctly in GitHub Preview. I then committed the
 
 This confirmed that the issue had been caused by the Markdown formatting rather than the image itself or the image URL.
 
-*(Screenshot will be added here later.)*
+![GitHub Preview successfully displaying the image after removing the triple backticks and correcting the Markdown](screenshots/image%20viewable%20in%20preview.png)
 
 
 ## Result
